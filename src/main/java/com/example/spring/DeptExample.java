@@ -5,7 +5,7 @@ public class DeptExample {
 	public static void main(String[] args) {
 		
 		Dept dept = new Dept();		// create
-		dept.setDeptno(10);			// reset
+		dept.setDeptno(20);			// reset
 		dept.setDname("Developer");	
 		dept.setLoc("Seoul");
 		
