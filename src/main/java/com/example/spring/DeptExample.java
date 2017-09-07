@@ -10,6 +10,8 @@ public class DeptExample {
 		dept.setLoc("Seoul");
 		
 		System.out.println(dept);
+		dept.print();
+		dept.print2();
 		System.out.println(dept.getDeptno() + ", " + dept.getDname() + ", " + dept.getLoc());
 	}
 }
